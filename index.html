@@ -22,10 +22,6 @@
                 padding: 50px;
             }
 
-            img {
-              width: 100%;
-            }
-
 
             .overview {
               background-color: lightgreen;
@@ -51,7 +47,17 @@
             }
             
             
+            .hardware {
+              width: 100%;
+            }
+            
 
+            .home {
+              width: 80%;
+            }
+            
+            
+            
         </style>
 
 
@@ -65,7 +71,7 @@
 
         <!-- Navbar -->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img class="logo" src="vicky-zheng-logo.png">
@@ -100,7 +106,7 @@
         </nav>
 
 
-        <div id="home">
+        <div id="home" class="home">
             <img src="background.jpg">
         </div>
 
@@ -216,59 +222,65 @@
         <!-- Hardwares -->
   
   
-        <div class="container-fluid">
+        <div class="hardwares" id="hardwares">
+          <h1>Hardwares</h1>
+          <div class="container">
           <div class="row">
-            <div class="col">
-              <div class="hardwares" id="hardwares">
-                  <h1>Hardwares</h1>
-                  <div class="card" style="width: 100%;">
-                    <div class="card-body">
-                      <h5 class="card-title">Hard Drives</h5>
-                      <p class="card-text"><ul>
-                          <li>stores your software and whatever is on the hard drive remains there</li>
-                            <ul>
-                              <li>comes in variety of sizes (typically measured in gigabytes and terabytes)</li>
-                              <li>two types of hard drives (Standard Hard Disk Drive & Solid State Drive)</li>
-                            </ul>
-                        </ul></p>
-                      <a href="https://www.seagate.com/do-more/everything-you-wanted-to-know-about-hard-drives-master-dm/" class="card-link">Click for more Info</a>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 100%;">
-                    <div class="card-body">
-                      <h5 class="card-title">Graphic Tablets</h5>
-                      <p class="card-text"><ul>
-                          <li>consists of a flat, pressure-sensitive pad that allows you to draw on it with a special stylus</li>
-                            <ul>
-                              <li>allows natural drawing motion</li>
-                              <li>very sensitivity</li>
-                              <li>lots of custom settings</li>
-                              <li>increase productivity and efficiency</li>
-                            </ul>
-                        </ul></p>
-                      <a href="https://www.computerhope.com/jargon/g/graptabl.htm" class="card-link">Click for more Info</a>
-                    </div>
-                  </div>
-                  <div class="card" style="width: 100%;">
-                    <div class="card-body">
-                      <h5 class="card-title">Pen Displays</h5>
-                      <p class="card-text"><ul>
-                          <li>guide a pointer displayed on the screen</li>
-                            <ul>
-                              <li>can directly write and paint on the display</li>
-                              <li>makes drawing easier to comprehend</li>
-                            </ul>
-                        </ul></p>
-                      <a href="https://www.parkablogs.com/content/whats-pen-display-how-choose-good-one" class="card-link">Click for more Info</a>
-                    </div>
-                  </div>
+            <div class="col-lg-4 col-sm-12 col-md-6">
+              <div class="card" style="width: 18rem;">
+                <img src="img/hard-drive.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hard Drives</h5>
+                  <p class="card-text"><ul>
+                    <li>stores your software and whatever is on the hard drive remains there</li>
+                      <ul>
+                        <li>comes in variety of sizes (typically measured in gigabytes and terabytes)</li>
+                        <li>two types of hard drives (Standard Hard Disk Drive & Solid State Drive)</li>
+                      </ul>
+                  </ul></p>
+                  <a href="https://www.seagate.com/do-more/everything-you-wanted-to-know-about-hard-drives-master-dm/" class="btn btn-primary">Click for more Info</a>
+                </div>
               </div>
-            </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card" style="width: 18rem;">
+                  <img src="img/graphic-tablet.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Graphic Tablets</h5>
+                    <p class="card-text"><ul>
+                      <li>consists of a flat, pressure-sensitive pad that allows you to draw on it with a special stylus</li>
+                        <ul>
+                          <li>allows natural drawing motion</li>
+                          <li>very sensitivity</li>
+                          <li>lots of custom settings</li>
+                          <li>increase productivity and efficiency</li>
+                        </ul>
+                    </ul></p>
+                    <a href="https://www.computerhope.com/jargon/g/graptabl.htm" class="btn btn-primary">Click for more Info</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <div class="card" style="width: 18rem;">
+                  <img src="img/pen-display.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Pen Displays</h5>
+                    <p class="card-text"><ul>
+                      <li>guide a pointer displayed on the screen</li>
+                        <ul>
+                          <li>can directly write and paint on the display</li>
+                          <li>makes drawing easier to comprehend</li>
+                        </ul>
+                    </ul></p>
+                    <a href="https://www.parkablogs.com/content/whats-pen-display-how-choose-good-one" class="btn btn-primary">Click for more Info</a>
+                  </div>
+                </div>
+              </div>
+          </div>
           </div>
         </div>
-      </div>
-        
-          
+                  
+                  
           
           
           
@@ -326,6 +338,70 @@
         <footer class="footer">
           <p class"center">Made by <a href="https://github.com/vickyz9555">Vicky Zheng</a></p>
         </footer>
+
+
+
+
+
+
+
+ <div class="container-fluid">
+          <div class="softwares" id="softwares">
+              <h1>Softwares</h1>
+              <table class="u-full-width">
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>Year that Came Out</th>
+                    <th>What is it Used For</th>
+                    <th>Image</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Adobe Photoshop</td>
+                    <td>02/19/1990</td>
+                    <td><ul>
+                      <li>allows us to alter photographs, creating textures to map onto your 3D models</li>
+                        <ul>
+                          <li>automate cropping and straightening photos</li>
+                          <li>can customize toolbars and preview work</li>
+                        </ul>
+                    </ul></td>
+                    <td><img class= "app" src="img/adobe-photoshop.jpg"</td>
+                  </tr>
+                  <tr>
+                    <td>Maya</td>
+                    <td>02/01/1998</td>
+                    <td><ul>
+                      <li>used for animation and it tends to be optimized for film</li>
+                      <li>there are poly tools that makes organic modeling and animation intuitive</li>
+                    </ul></td>
+                    <td><img class= "app" src="img/maya.jpg"</td>
+                  </tr>
+                  <tr>
+                    <td>Clip Studio Paint Pro</td>
+                    <td>05/31/2012</td>
+                    <td><ul>
+                      <li>aimed for manga and comic artists</li>
+                        <ul>
+                          <li>have unlimited tones</li>
+                          <li>bunch of variety brushes</li>
+                          <li>customizable control panel</li>
+                    </ul></td>
+                    <td><img class= "app" src="img/clip-studio-paint-pro.jpg"</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+        </div>
+
+
+
+
+
+
+
 
 
         <!-- JS -->
