@@ -1,12 +1,12 @@
             h1 {
                 text-align: center;
                 padding: 30px;
-                background-color: lightgray;
             }
 
             .overview {
                 text-align: center;
                 padding: 50px;
+                border: solid black 10px;
             }
 
 
@@ -54,5 +54,13 @@
               font-size: 1.4rem;
             }
             
-            
-            
+            .textalign {
+              font-size: 6rem;
+            }
+           
+           .centered {
+             position: absolute;
+             top: 50%;
+             left: 50%;
+             transform: translate(-50%, -50%);
+           }
