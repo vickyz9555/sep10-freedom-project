@@ -1,0 +1,58 @@
+            h1 {
+                text-align: center;
+                padding: 30px;
+                background-color: lightgray;
+            }
+
+            .overview {
+                text-align: center;
+                padding: 50px;
+            }
+
+
+            table {
+              width: 100%;
+              margin-left: 20px;
+            }
+
+
+            .footer {
+              text-align: center;
+            }
+            
+            .logo {
+              width: 35px;
+            }
+            
+            
+            .app {
+              width: 150px;
+            }
+            
+            
+            .hardware {
+              float: right;
+            }
+            
+
+            
+            
+            table {
+              font-family: sans-serif;
+              margin: 0px;
+            }
+            
+            
+            th {
+              background-color: black;
+              color: white;
+            }
+            
+            
+            th, td {
+              padding: 0.8rem;
+              font-size: 1.4rem;
+            }
+            
+            
+            
