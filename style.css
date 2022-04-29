@@ -1,3 +1,8 @@
+            body {
+              background-color: lightgray;
+            }
+            
+            
             h1 {
                 text-align: center;
                 padding: 30px;
@@ -6,7 +11,6 @@
             .overview {
                 text-align: center;
                 padding: 50px;
-                border: solid black 10px;
             }
 
 
@@ -63,4 +67,11 @@
              top: 50%;
              left: 50%;
              transform: translate(-50%, -50%);
+             font-family: 'Tapestry', cursive;
            }
+           
+           .card {
+             text-align: center;
+           }
+           
+           

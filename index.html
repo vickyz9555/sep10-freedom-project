@@ -11,6 +11,8 @@
         <link href="css/normalize.css" rel="stylesheet">
         <link href="style.css" rel="stylesheet" type="text/css" />
         
+        <link href="https://fonts.googleapis.com/css2?family=Tapestry&display=swap" rel="stylesheet">
+        
         <style>
 
             
@@ -24,6 +26,7 @@
 
         <!-- Navbar -->
 
+        
         <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -33,12 +36,12 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#overview">Overview</a>
+                  <a class="nav-link" href="#overview">Context</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#faq">FAQ</a>
@@ -58,12 +61,15 @@
           </div>
         </nav>
         
-        
-        <div class="container-fluid textalign">
+        <div id="home">
+        <div class="container-custom textalign">
           <div class="row">
-            <img src="background.jpg"><h1 class="centered">ART DESIGN </h1>
+            <img src="background.jpg"><h1 class="centered">ART & DESIGN </h1>
           </div>
         </div>
+        </div>
+
+        
 
 
          <!-- Hardwares -->
@@ -128,10 +134,10 @@
         </div>
 
         <!-- Overview -->
-        <div class="container-fluid">
+        <div class="container-custom">
           <div id="overview">
-              <h1>Content / Overview</h1>
-                  <p>Art Design are outlines, sketches, or plans, such as the form and structure of artwork. Art provides a foundation of knowledge and skills in the visual arts and their connections to other disciplines, exploring them intellectually and experientially. This also provide students with knowledge of the different design forms, materials, media, and production in these creative industries.</p>
+              <h1>Context</h1>
+                <p>As you can see, above are some lists of hardwares used when it comes to Art Design. The study of art includes various expressions of human thought, interests, attitudes, emotions, and ideas. So what exactly is Art Design and how does it relate to technology? Well, let me introduce it to you all. First of all, what is art design?  Art Design are outlines, sketches, or plans, such as the form and structure of artwork. It provides a foundation of knowledge and skills in the visual arts and their connections to other disciplines, exploring them intellectually and experientially. This is an integral part of the product development process.</p>
           </div>
         </div>
         </div>
@@ -139,17 +145,17 @@
           
         <!-- FAQ -->
 
-        <div class="container-fluid">
+        <div class="container">
           <div id="faq">
               <h1>FAQ <i class="bi bi-question-square"></i></h1> 
-              <div class="accordion" id="accordionExample">
+              <div class="accordion" id="accordionPanelsStayOpenExample">
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                       <strong>What do you study for an Art and Design degree?</strong>
                     </button>
                   </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                     <div class="accordion-body">
                       <ul>
                         <li>Art and Design degree studies different visual media including painting, drawing, sculpture, and graphic designs.</li>
@@ -159,12 +165,32 @@
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
+                      <strong>What types of art are involved in Art Design?</strong>
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
+                    <div class="accordion-body">
+                      <ul>
+                        <li>painting</li>
+                        <li>wood carving</li>
+                        <li>weaving </li>
+                        <li>ceramics</li>
+                        <li>graphic art</li>
+                        <li>glass art</li>
+                        <li>sculptures</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="true" aria-controls="panelsStayOpen-collapseThree">
                       <strong>Which apps are the best to use?</strong>
                     </button>
                   </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
                     <div class="accordion-body">
                       <ul>
                         <li>It really depends on what kind of art you would want to make and which one fits you the best (the one you are comfortable working with).</li>
@@ -188,7 +214,7 @@
 
         <!-- Softwares -->
 
-        <div class="container-fluid">
+        <div class="container">
           <div class="softwares" id="softwares">
               <h1>Softwares</h1>
               <table class="u-full-width">
@@ -248,7 +274,7 @@
           
         <!-- Future Innovations -->
         
-        <div class="container-fluid">
+        <div class="container">
           <div class="inventions" id="inventions">
               <h1>Future Innovations</h1>
               <ul>
@@ -279,7 +305,7 @@
 
         <!-- Tips -->
 
-        <div class="container-fluid">
+        <div class="container">
           <div class="tips" id="tips">
             <h1>Tips for Success</h1>
             <ul class="list-group">
