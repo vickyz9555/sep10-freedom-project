@@ -12,6 +12,7 @@
                 margin:1rem 3rem;
                 background-color: white;
                 padding: 2px;
+                font-size: 1.8rem;
               
             }
 
@@ -103,3 +104,6 @@
            }
            
            
+           .card {
+               margin-bottom: 7rem;
+           }
