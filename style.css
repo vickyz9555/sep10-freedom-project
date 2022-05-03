@@ -90,3 +90,12 @@
              position: relative;
              text-align: center;
            }
+           
+           .inventions {
+             background-color: white;
+             padding: 5px;
+           }
+           
+           i {
+             float:right;
+           }
