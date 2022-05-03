@@ -52,12 +52,14 @@
             th {
               background-color: black;
               color: white;
+              text-align: center;
             }
             
             
             th, td {
               padding: 0.8rem;
               font-size: 1.4rem;
+              
             }
             
             .text-align {
