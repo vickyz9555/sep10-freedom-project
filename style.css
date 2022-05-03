@@ -5,12 +5,13 @@
             
             h1 {
                 text-align: center;
-                padding: 30px;
             }
 
-            .overview {
+            .context {
                 text-align: center;
-                padding: 50px;
+                margin:1rem 3rem;
+                background-color: white;
+              
             }
 
 
@@ -58,8 +59,8 @@
               font-size: 1.4rem;
             }
             
-            .textalign {
-              font-size: 6rem;
+            .text-align {
+              font-size: 5.5rem;
             }
            
            .centered {
@@ -68,10 +69,23 @@
              left: 50%;
              transform: translate(-50%, -50%);
              font-family: 'Tapestry', cursive;
+             margin: 0px;
            }
            
            .card {
              text-align: center;
            }
            
+           .back-pic{
+             background-image:url(background.jpg);
+             background-attachment: fixed;
+             padding-top: 2rem;
+             padding-bottom: 4rem;
+             
+           }
            
+           
+           .container-custom {
+             position: relative;
+             text-align: center;
+           }
