@@ -37,11 +37,6 @@
             }
             
             
-            .hardware {
-              float: right;
-            }
-            
-
             
             
             table {
@@ -106,4 +101,13 @@
            
            .card {
                margin-bottom: 7rem;
+           }
+           
+           
+           li {
+               font-size: 1.6rem;
+           }
+           
+           .faq-font {
+               font-size: 1.8rem;
            }
