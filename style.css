@@ -1,5 +1,6 @@
             body {
               background-color: lightgray;
+              font-family: 'Radio Canada', sans-serif;
             }
             
             
@@ -90,8 +91,10 @@
            }
            
            .inventions {
+             border-radius: 15px;
              background-color: white;
-             padding: 5px;
+             padding: 20px;
+             font-family: 'Ubuntu', sans-serif;
            }
            
            i {
@@ -111,3 +114,10 @@
            .faq-font {
                font-size: 1.8rem;
            }
+           
+           .table-center {
+               text-align: center;
+           }
+          
+          
+          
